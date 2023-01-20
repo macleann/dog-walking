@@ -1,0 +1,26 @@
+.details {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.detail--column {
+    flex-basis: 24%;
+    margin: 0 2rem;
+    border: 1px dotted goldenrod;
+    padding: 20px;
+}
+
+.list{
+	display: flex;
+	flex-direction: column;
+}
+
+.details__cities {
+	display: flex;
+}
+
+
+.assignments {
+    padding: 1rem 5rem;
+}
+
