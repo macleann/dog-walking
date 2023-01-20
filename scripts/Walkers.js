@@ -75,7 +75,7 @@ document.addEventListener(
                         multipleCitiesString += `${multipleCitiesArray[i]}, `
                     }
                     
-                    let lastCity = multipleCitiesArray.length
+                    let lastCity = (multipleCitiesArray.length - 1)
                     multipleCitiesString += `and ${multipleCitiesArray[lastCity]}`
                     
                 }
